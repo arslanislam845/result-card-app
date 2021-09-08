@@ -6,7 +6,7 @@ function form_validation(){
         return false;
     }
     if (eng<0 || eng>100 ) {
-        swal("Error!","Subject English Number must be less then or equal to 100");
+        swal("Error!","Subject English Number must be between 0 and  100");
         return false;
     }
 
@@ -16,7 +16,7 @@ function form_validation(){
         return false;
     }
     if (math<0 || math>100 ) {
-        swal("Error!","Subject Maths Number must be less then or equal to 100");
+        swal("Error!","Subject Maths Number  must be between 0 and 100");
         return false;
     }
 
@@ -26,7 +26,7 @@ function form_validation(){
         return false;
     }
     if (chem<0 || chem>100 ) {
-        swal("Error!","Subject Chemistry Number must be less then or equal to 100");
+        swal("Error!","Subject Chemistry Number must be between 0 and 100");
         return false;
     }
 
@@ -36,7 +36,7 @@ function form_validation(){
         return false;
     }
     if (urdu<0 || urdu>100 ) {
-        swal("Error!"," Subject Urdu Number must be less then or equal to 100");
+        swal("Error!"," Subject Urdu Number must be between 0 and 100");
         return false;
     }
 
@@ -46,7 +46,7 @@ function form_validation(){
         return false;
     }
     if (phy<0 || phy>100 ) {
-        swal("Error!","Subject Physics Number must be less then or equal to 100");
+        swal("Error!","Subject Physics Number must be between 0 and 100");
         return false;
     }
 
@@ -56,7 +56,7 @@ function form_validation(){
         return false;
     }
     if (bio<0 || bio>100 ) {
-        swal("Error!","Subject Biology Number must be less then or equal to 100");
+        swal("Error!","Subject Biology Number must be between 0 and 100");
         return false;
     }
     return true
